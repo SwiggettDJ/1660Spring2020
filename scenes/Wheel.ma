@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Wheel.ma
-//Last modified: Thu, Jan 30, 2020 09:28:11 PM
+//Last modified: Thu, Jan 30, 2020 11:50:48 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -13,14 +13,14 @@ fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "6C065890-4DF2-42C2-D5E4-90B0A94B8A77";
-	setAttr ".t" -type "double3" 6.7607219686197215 7.2307379749008964 -2.5279525740458308 ;
-	setAttr ".r" -type "double3" -24.938353271660542 860.59999999807007 0 ;
+	setAttr ".t" -type "double3" 20.532276780413156 9.6173149308338282 -3.3216023025343384 ;
+	setAttr ".r" -type "double3" -18.338353265676826 833.79999999932375 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "506F9601-4876-ECBE-6722-7F9393058749";
 	setAttr -k off ".v";
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 11.742720097270666;
+	setAttr ".coi" 23.485290209108857;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
