@@ -1,0 +1,13 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.26 0.26 0.26
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.23 0.23 0.23
+map_Kd jeep_wrangler_rubicon_2018-92461.jpg
+Ni 1.00
